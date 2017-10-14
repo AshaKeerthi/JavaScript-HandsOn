@@ -1,0 +1,30 @@
+.divstyle {
+  padding : 6px;
+  margin-bottom : 10px;
+  margin-right : 10px;
+}
+
+.divdate {
+  width : 13%;
+  height : 90px;
+  display : inline-block;
+  border : 1px solid;
+  overflow: overlay;
+  font-size: 16px;
+  margin-bottom: -6px;
+}
+
+.divcolumn {
+  width : 13%;
+  height : 20px;
+  display : inline-block;
+  border : 1px solid;
+  margin-bottom : -6px;
+}
+.divcurrentdate {
+    margin-left : 250px;
+    font-size: 250%;
+}
+.displayAllocateVM {
+      font-size: 12px;
+}
