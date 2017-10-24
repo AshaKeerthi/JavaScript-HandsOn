@@ -1,0 +1,26 @@
+<!-- expanded version of this loader animation: https://gist.github.com/3743065 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8' />
+	<title>CSS Clock</title>
+	<link rel="stylesheet" type="text/css" href="css/clock.css">
+
+</head>
+<body>
+<div style="display : inline-block;">
+	<canvas id="secondCanvas" width="150" height="100"></canvas>
+	<canvas id="minuteCanvas" width="150" height="100"></canvas>
+	<canvas id="hourCanvas" width="150" height="100"></canvas>
+</div><br>
+<div id='inputFields' style="margin : 4%">
+	Seconds:<input type = "number" id = "seconds" value=0 min="0" max="59">
+	Minute:<input type = "number" id = "minute" value=0 min="0" max="59">
+	Hour:<input type = "number" id = "hour" value=0 min="0" max="12">
+	<button id="start" style="margin : 2%">START</button>
+</div>
+<script type="text/javascript" src="js/JQuery.min.js"></script>
+<script type="text/javascript" src="js/clock.js"></script>
+</body>
+
+</html>
